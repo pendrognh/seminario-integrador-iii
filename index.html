@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Assinatura</title>
+</head>
+
+<body>
+    <!-- Logo -->
+    <header>
+        <div class="logo">
+            <img src="alan.jpg" alt="Logo do Site" width="100" height="50">
+            <link rel="stylesheet" href="style.css">
+            <h3>Aboust</h3>
+        </div>
+        
+        <!-- Navegação com botões para rolar até as seções -->
+        <nav>
+            <button onclick="document.getElementById('planos').scrollIntoView();">Planos</button>
+            <button onclick="document.getElementById('sobre-nos').scrollIntoView();">Sobre Nós</button>
+            <button onclick="document.getElementById('contato').scrollIntoView();">Contato</button>
+        </nav>
+    </header>
+
+    <section class="corpo">
+
+        <!-- Descrições adicionais -->
+        <section id="corpo__descricao">
+            <h2>Sua empresa dá valor à transparência?</h2><br>
+            <p>Quando se trata do relacionamento entre empresa e cliente, a comunicação deve ser honesta e transparente, especialmente ao apresentar os serviços e produtos ofertados.</p>
+            <p>Nossos planos de assinatura oferecem modelos de apresentação para páginas "Sobre Nós", facilitando a comunicação clara, simples e visualmente atraente da identidade de sua empresa.</p><br>
+            <p>Confira abaixo o que ofertamos:</p>
+        </section>
+
+        <!-- Planos de Assinatura -->
+        <section id="corpo__planos">
+            <h2>Nossos Planos:</h2><br><br>
+            <div class="corpo__plano-container">
+                <div class="corpo__plano-container__plano">
+                    <h3>Plano Básico</h3>
+                    <p>Descrição do Plano Básico...</p>
+                    <p>Preço: R$29,99/mês</p>
+                    <button>Assinar</button>
+                </div>
+                <div class="corpo__plano-container__plano">
+                    <h3>Plano Premium</h3>
+                    <p>Descrição do Plano Premium...</p>
+                    <p>Preço: R$59,99/mês</p>
+                    <button>Assinar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Nós -->
+        <section id="corpo__sobre-nos">
+            <h2>Sobre Nós:</h2><br>
+            <p>Somos uma equipe focada em resolver um problema muitas vezes ignorado no mercado. Prezamos pela honestidade, integridade, empatia e respeito mútuo.</p>
+            <p>Acreditamos que uma empresa que se apresenta de forma verdadeira conhece seu público de forma mais completa e autêntica.</p> <br>
+            <p>Nossa equipe trabalha para fortalecer a conexão com o público e transmitir de forma íntegra os valores e objetivos empresariais.</p>
+        </section>
+
+        <!-- Contato -->
+        <section id="corpo__contato">
+            <h2>Contato:</h2><br>
+            <p>Em caso de dúvidas, reclamações ou sugestões, sinta-se livre para entrar em contato:</p><br>
+            <p>Email: paunoteucu@aipaipara.com</p>
+            <p>Telefone: (00) 4002-8922</p><br>
+        </section>
+
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
